@@ -1,0 +1,23 @@
+/* Write your code here: */
+
+/* Group Combiner: */
+h1, h2 {
+    color: blueviolet;
+}
+
+/* Child Combiner: */
+.box > p {
+    color: firebrick;
+}
+/* Descentdant combiner: */
+.box li {
+    color: blue;
+}
+/* Chaining combiner: */
+li.done  {
+    color: seagreen;
+}
+/* Combining Combiners: */
+ul p.done {
+    font-size: 0.5rem;
+}
